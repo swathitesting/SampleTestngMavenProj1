@@ -1,0 +1,34 @@
+Java perspective:
+
+---If in eclipse we use Java perspective then all the jars downloaded through pom.xml will 
+    be present under Referenced Libraries .
+
+JavaEE perspective:
+
+--If in eclipse we are in Java EE perspective then all the jars downloaded through pom.xml will 
+    be present directly under JREsystem library.  
+ 
+In this project learntestng we deal with integrating testng and maven.
+
+1.  Run the java file from command prompt --> from maven
+2.  Run the testng.xml( testng project) from maven command line
+   (using ant also we can run from cmd line but maven has better features 
+      regarding jars.)
+3.  Generating surefire reports with maven
+4.  Generating XSLT reports with maven
+ 
+ 
+1. If we wan to run the java file at command prompt through maven then we use maven sure fire plugin. 
+   To trigger tesng.xml fie from pom.xml we use mven surefire plugin. 
+  
+  
+ --  mvn test  ---> this command will execute the tests as per the tests in testng.xml
+ --  mvn test site --> this command will execute the tests(project) and also generate 
+                      some apache reports
+    
+ --  mvn surefire-report:report---> this command at prompt will execute tests and 
+                                     also generate surefire reports
+                                 
+--> Surefire reports are generated after refreshing project and under 
+     the target folder (inside site folder) in project location.                              
+  

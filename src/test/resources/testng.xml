@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sample Suite">
+
+
+<listeners>
+     <listener class-name="testng_listeners_swa.CustomListeners_swa" />
+</listeners>
+
+<test name="AppTest">
+<classes>
+     <class name="com.testngmavenproj.AppTest"> </class>
+</classes>
+</test>
+
+<test name="SampleTest">
+<classes>
+     <class name="com.testngmavenproj.SampleTest"> </class>
+</classes>
+</test>
+
+
+
+</suite>

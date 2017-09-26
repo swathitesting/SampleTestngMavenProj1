@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33" started-at="2017-09-26T21:49:49Z" finished-at="2017-09-26T21:49:49Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="33" started-at="2017-09-26T21:49:49Z" finished-at="2017-09-26T21:49:49Z">
+      <class name="com.testngmavenproj.SampleTest">
+        <test-method status="PASS" signature="senaMail()[pri:0, instance:com.testngmavenproj.SampleTest@43a25848]" name="senaMail" duration-ms="1" started-at="2017-09-26T22:49:49Z" finished-at="2017-09-26T22:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senaMail -->
+      </class> <!-- com.testngmavenproj.SampleTest -->
+      <class name="com.testngmavenproj.AppTest">
+        <test-method status="PASS" signature="senaMail()[pri:0, instance:com.testngmavenproj.AppTest@d041cf]" name="senaMail" duration-ms="11" started-at="2017-09-26T22:49:49Z" finished-at="2017-09-26T22:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senaMail -->
+      </class> <!-- com.testngmavenproj.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
